@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.helloncu.androidexample.View.TopBar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/topBar"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    custom:leftBackground="@color/colorAccent"
+    custom:leftText="Back"
+    custom:leftTextColor="#FFFFFF"
+    custom:rightBackground="@color/colorPrimaryDark"
+    custom:rightText="More"
+    custom:rightTextColor="#FFFFFF"
+    custom:title="自定义标题"
+    custom:titleTextColor="#123456"
+    custom:titleTextSize="12sp">
+</com.helloncu.androidexample.View.TopBar>
