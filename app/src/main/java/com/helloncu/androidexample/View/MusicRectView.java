@@ -52,6 +52,7 @@ public class MusicRectView extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
+        //offset(偏移)
         for (int i = 0; i < mRectCount; i++) {
             mRandom = Math.random();
             float currentHeight = (float) (mRectHeight * mRandom);
