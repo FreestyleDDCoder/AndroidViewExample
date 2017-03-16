@@ -34,7 +34,7 @@
     </com.helloncu.androidexample.View.TopBar>
 
     <include
-        android:id="@+id/topBar2"
         layout="@layout/topbar"
+        android:id="@+id/topBar2"
         />
 </LinearLayout>

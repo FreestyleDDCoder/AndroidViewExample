@@ -144,22 +144,30 @@ public class TopBar extends RelativeLayout {
         void rightClick();
     }
 
+    public void setTopbarText(String mleftText,String mtitle,String mrightText) {
+        this.mleftText=mleftText;
+        this.mleftText=mtitle;
+        this.mleftText=mrightText;
+    }
+
+
     /**
      * 设置按钮的显示与否是否通过id区分按钮，flag区分是否显示
-     * @param id id
+     *
+     * @param id   id
      * @param flag 是否显示
      */
-    public void setButtonVisable(int id,boolean flag){
-        if(flag){
-            if(id==0){
+    public void setButtonVisable(int id, boolean flag) {
+        if (flag) {
+            if (id == 0) {
                 mLeftButton.setVisibility(View.VISIBLE);
-            }else{
+            } else {
                 mRightButton.setVisibility(View.VISIBLE);
             }
-        }else{
-            if (id==0){
+        } else {
+            if (id == 0) {
                 mLeftButton.setVisibility(View.GONE);
-            }else {
+            } else {
                 mRightButton.setVisibility(View.GONE);
             }
         }

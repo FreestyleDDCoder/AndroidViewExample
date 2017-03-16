@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         topBar2 = (TopBar) findViewById(R.id.topBar2);
+        topBar2.setTopbarText("Back","自定义标题","more");
         topBar2.setOnTopBarClickListener(new TopBar.topBarClickListener() {
             @Override
             public void leftClick() {
